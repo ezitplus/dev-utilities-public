@@ -35,6 +35,7 @@ const DocsExample = (props) => {
     </div>
   )
 }
+
 DocsExample.propTypes = {
   children: PropTypes.node,
   href: PropTypes.string,
