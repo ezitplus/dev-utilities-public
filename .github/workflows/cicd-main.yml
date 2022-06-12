@@ -31,3 +31,5 @@ jobs:
         with:
           github_token: ${{ secrets.GIT_TOKEN }}
           publish_dir: ./build
+          cname: utils.itplus.dev
+

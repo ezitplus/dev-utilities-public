@@ -10,7 +10,6 @@ const DocsExample = (props) => {
   const { children, href } = props
 
   const _href = `https://coreui.io/react/docs/${packageJson.config.coreui_library_short_version}/${href}`
-
   return (
     <div className="example">
       <CNav variant="tabs">
