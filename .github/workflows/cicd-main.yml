@@ -18,14 +18,10 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '16'
-          cache: 'npm'
-
-      - name: Install dependencies
-        id: npm-install
-        run: |
-          npm install --unsafe-perm=true
+          registry-url: 'https://registry.npmjs.org'
 
       - name: Deploy
         id: npm-deploy
         run: |
-          npm run deploy
+          yarn
+          yarn deploy
