@@ -40,5 +40,4 @@ DocsExample.propTypes = {
   children: PropTypes.node,
   href: PropTypes.string,
 }
-
 export default React.memo(DocsExample)
