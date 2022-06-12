@@ -24,4 +24,4 @@ jobs:
         id: npm-deploy
         run: |
           yarn
-          yarn deploy
+          CI=false yarn deploy
